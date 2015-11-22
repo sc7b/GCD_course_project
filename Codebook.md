@@ -43,6 +43,9 @@ The leading "f" signifing frequency domain (FFT) conversion was changed to "Freq
 Parenthesis were removed from variable names
 Also, "mean" was changed to "Mean" and "std" to "StdDev".
 
+##Units
+All time domain variables (everything not starting with "Freq") are in standard gravity units 'g'. The grouped upon factor Subject runs from 1 to 30 and represents a participant with the grouped upon factor Activity has six possible values (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying).
+
 A complete list of variables is provided below
 
  [1] "Subject"                      "Activity"                    
