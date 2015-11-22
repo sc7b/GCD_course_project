@@ -6,17 +6,17 @@ output: "tidy_data.txt"
 ---
 
 ## Project Description
-This course project involved tidying a set of data from Samsung
+This course project involved tidying a set of data from Samsung found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ##Study design and data processing
 The study design is well laid out in their README.txt. 30 people wore Samsung smartphones while perorming 6 specific activities.
 Data was collected from the phone's sensors. Noise filters and low pass filters were applied to this data.
 
 ###Collection of the raw data
-The data was collected 50 times per second from the smartphones accelerometer and gyroscope. This data was 3-dimensional.
+The data was collected 50 times per second from the smartphones accelerometer and gyroscope. This data is 3-dimensional and is broken into x,y, and z components.
 
 ###Notes on the original (raw) data 
-For more detailed information about the data collection process as well as the data preprocessing, see the README.txt included with the dat
+For more detailed information about the data collection process as well as the data preprocessing, see the README.txt included with the dats
 
 ##Creating the tidy datafile
 After downloading and unzipping the Samsung data files, the train and test data were read into R. Features.txt was also read in as it contains
