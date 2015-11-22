@@ -7,7 +7,7 @@ date: "November 21st, 2015"
 This file describes how to convert data from Samsung found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into a tidy data file called "tidy_data.txt"
 
 ##Assumptions
-It is assumed that you have downloaded and extracted the data from Samsung. Also, you will be running the "run_analysis.R" file from the head of the downloaded data's directory tree.
+It is assumed that you have downloaded and extracted the data from Samsung. Also, it is assumed you will be running the "run_analysis.R" file in the same directory as the extracted data.
 
 ##Assumptions about the data
 I have assumed that no changes to the data have been made since the "run_analysis.R" file was created. The analysis file has many bits hard coded and is not designed to work on any data other that what was previously in existence in November of 2015.
