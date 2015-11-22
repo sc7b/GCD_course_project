@@ -10,13 +10,13 @@ This file describes how to convert data from Samsung found here: https://d396qus
 It is assumed that you have downloaded and extracted the data from Samsung. Also, you will be running the "run_analysis.R" file from the head of the downloaded data's directory tree.
 
 ##Assumptions about the data
-I have assumed that no changes to the data have been made since the "run_analysis.R" file was created. The analysis file has many bit hard coded and is not designed to work on any data other that what was previously in existence in November of 2015.
+I have assumed that no changes to the data have been made since the "run_analysis.R" file was created. The analysis file has many bits hard coded and is not designed to work on any data other that what was previously in existence in November of 2015.
 
 ##Units
 All time domain variables (everything not starting with "freq") are in standard gravity units 'g'. The grouped upon factor Subject runs from 1 to 30 and represents a participant with the grouped upon factor Activity has six possible values (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying). The frequency domain variables (those starting with "freq") are in Hz.
 
 ##What run_analysis.R does
-The run_analysis.R file will read in all the train and test data, and, after processing, output a tidy_data.txt file that contains mean and standard deviation information for each variable grouped by participant and activity. Participants are numbered 1-30. There are 6 different activities. The result is a data frame containg 180 observations of 81 variables.
+The run_analysis.R file will read in all the train and test data, and, after processing, output a tidy_data.txt file that contains the mean of each variable, grouped by participant and activity. Participants are numbered 1-30. There are 6 different activities. The result is a data frame containg 180 observations of 81 variables.
 
 run_analysis.R also changes many variable names to make them more human readable. The leading "t" was removed from all the time domain measurements.
 The leading "f" signifing frequency domain (FFT) conversion was changed to "Freq".
